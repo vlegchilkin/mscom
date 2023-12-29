@@ -1,20 +1,21 @@
 [tool.poetry]
 name = "mscom"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["vitaly.legchilkin <vlegchilkin@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-fastapi = "0.95.1"
-aiokafka = "^0.8.0"
+pydantic_settings = "^2.1.0"
+fastapi = "^0.108.0"
+aiokafka = "^0.10.0"
 structlog = "^23"
 python-json-logger = "^2.0.1"
 ujson = "^5.4.0"
 SQLAlchemy = "^1.4.11"
 async-timeout = "^4.0.2"
 aiohttp = "^3.8.4"
-ruamel-yaml = "^0.17.21"
+ruamel-yaml = "^0.18.5"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2"
